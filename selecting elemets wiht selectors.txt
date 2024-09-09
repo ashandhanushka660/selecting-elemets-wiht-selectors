@@ -1,0 +1,54 @@
+
+
+
+9.show several mehtods you can use to select the button element below and attach and
+a click event listener to it.length
+
+
+
+<button id= "btn" class="btn">Click me </button>
+
+
+//if the first button ont he page
+const button = document.querySelector('button');
+
+
+//it has an id of "btn"
+const button = document.getElementById('btn');
+
+
+//it has c alss of "btn"it is the first button width that class on the page
+const button=document.getElementByClassName('btn')[0];
+
+
+//it has a class of  button and it is  only button on the page
+
+const button=document	.querySelector	('.btn');
+
+
+
+
+
+
+
+
+addign event listenreer
+
+
+button.addEventListener	('click,()=>{
+	console.log('clicked');
+});
+
+//or
+button.onclick=()=>{
+	console.log('clicked');
+};
+
+
+
+function	myfunction(){
+	console.log('hello');
+}
+const myfunction	=function	(){
+	console.log('hello');
+}
